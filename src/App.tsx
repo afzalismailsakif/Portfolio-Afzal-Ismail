@@ -13,6 +13,7 @@ import Cybersecurityimportance from "./pages/blogs/CybersecurityImportance";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (
