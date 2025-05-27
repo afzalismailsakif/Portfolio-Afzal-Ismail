@@ -37,10 +37,10 @@ const HeroSection = () => (
     </p>
 
     <a
-      href="#projects"
+      href="#experience"
       className="inline-block px-6 py-2 mt-2 bg-accent text-primary rounded-lg font-semibold hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-200"
     >
-      View My Work
+      View My Work Experience
     </a>
   </section>
 );
