@@ -11,12 +11,21 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      input: "./index.html"
+    }
+  },
+  // This ensures Vite handles React Router's client-side routing
+  optimizeDeps: {
+    include: ["react-router-dom"]
+  }
 }));
