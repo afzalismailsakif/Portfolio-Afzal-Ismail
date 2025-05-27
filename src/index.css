@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 228 13% 15%;
+    --card-foreground: 210 40% 98%;
+    --primary: 210 40% 95%;
+    --primary-foreground: 222 47.4% 11.2%;
+    --secondary: 222 14% 18%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 10% 20%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 217 100% 65%;
+    --accent-foreground: 210 40% 98%;
+    --border: 216 16% 34%;
+    --input: 216 16% 34%;
+    --ring: 217 91% 59%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold;
+  }
+
+  section {
+    @apply py-12 md:py-20;
+  }
+}
