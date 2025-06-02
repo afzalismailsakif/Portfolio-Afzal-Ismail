@@ -1,9 +1,17 @@
 
 const experiences = [
+  
+   {
+    company: "Staff Asia Ltd (B2B Team)",
+    title: "Team Leader - B2B",
+    period: "05/2025 - Present",
+    description:
+      "Colaborate with the team, helping and guiding them as per SOP to increase performance and deliver results. Location: Sylhet, Bangladesh.",
+  },
   {
     company: "Staff Asia Ltd (B2B Team)",
-    title: "Trainee Team Lead - B2B",
-    period: "05/2024 - Present",
+    title: "Trainee Team Leader - B2B",
+    period: "05/2024 - 05/2025",
     description:
       "Leading and mentoring the B2B team to enhance performance and deliver results. Location: Sylhet, Bangladesh.",
   },
