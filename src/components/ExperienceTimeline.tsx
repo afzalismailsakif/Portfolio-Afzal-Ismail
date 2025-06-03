@@ -6,7 +6,7 @@ const experiences = [
     title: "Team Leader - B2B",
     period: "05/2025 - Present",
     description:
-      "Colaborate with the team, helping and guiding them as per SOP to increase performance and deliver results. Location: Sylhet, Bangladesh.",
+      "Collaborate with the team, helping and guiding them as per SOP to increase performance and deliver results. Location: Sylhet, Bangladesh.",
   },
   {
     company: "Staff Asia Ltd (B2B Team)",
