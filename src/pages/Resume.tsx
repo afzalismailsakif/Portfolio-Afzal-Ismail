@@ -1,5 +1,5 @@
 
-const RESUME_PDF_LINK = "https://drive.google.com/uc?export=download&id=1107Gk-Nus4mgREKPADpzIZ-LDhU_A5q5";
+const RESUME_PDF_LINK = "https://drive.google.com/uc?export=download&id=1ArWmWQxr8abgMaewKNr3wfjpr-rEttXr";
 
 const Resume = () => (
   <section className="flex flex-col items-center justify-center min-h-[60vh] animate-fade-in">
